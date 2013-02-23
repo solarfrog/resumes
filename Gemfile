@@ -8,7 +8,7 @@ gem 'rails', '3.2.1'
 gem 'sqlite3', '1.3.7'
 gem 'sqlite3', '1.3.7', :platform => 'ruby'
 
-gem 'bundler', '~> 1.0.17'
+gem 'bundler', '~> 1.0.7'
 
 # Gems used only for assets and not required
 # in production environments by default.
