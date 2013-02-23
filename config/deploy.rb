@@ -1,7 +1,7 @@
 require "bundler/capistrano"
 
 set :default_environment, {'PATH' => "'/home/evermind/packages/bin:/home/evermind/.gems/bin:/usr/lib/ruby/gems/1.8/bin/:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games
-:/usr/lib/ruby/gems/1.8/bin//bundle'"}
+:/usr/lib/ruby/gems/1.8/bin//bundle:/home/evermind/usr/local/bin'"}
 set :shell, '/bin/bash'
 
 set :domain, "solarfrog.com"
