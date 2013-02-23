@@ -8,7 +8,7 @@ set :domain, "solarfrog.com"
 set :application, "resumes.fbceproduction.org"
 set :deploy_to, "/home/evermind/resumes.fbceproduction.org"
 default_run_options[:pty] = true
-set :bundle_flags, "--no_deployment"
+# set :bundle_flags, "--no_deployment"
 
 # set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
