@@ -122,7 +122,7 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt-ruby (= 3.0.1)
-  bundler (= 1.0.22)
+  bundler (~> 1.0.17)
   capistrano (= 2.14.2)
   coffee-rails (= 3.2.2)
   jquery-rails (= 2.2.1)
