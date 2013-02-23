@@ -24,6 +24,7 @@ end
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
+gem 'bcrypt-ruby', '~> 3.0.1'
 gem 'bcrypt-ruby', '~> 3.0.1', :platform => 'ruby', :require => 'bcrypt'
 
 # To use Jbuilder templates for JSON
