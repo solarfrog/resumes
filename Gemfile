@@ -6,6 +6,7 @@ gem 'rails', '3.2.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'sqlite3-ruby', :platform => 'ruby', :require => 'sqlite3'
 
 gem 'bundler', '1.0.22'
 
